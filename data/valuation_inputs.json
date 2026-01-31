@@ -1,0 +1,21 @@
+{
+  "company": "Microsoft",
+  "ticker": "MSFT",
+  "investment_horizon": "Long-term",
+
+  "scenario": "base",
+  "valuation_method": "pe_proxy",
+
+  "pe_reference": 30,
+  "min_upside_pct_for_buy": 10,
+
+  "risk_weights": {
+    "ai_capex": 0.6,
+    "regulatory": 0.4
+  },
+
+  "risk_thresholds": {
+    "high_risk": 0.65,
+    "medium_risk": 0.45
+  }
+}
